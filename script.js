@@ -1,7 +1,7 @@
 const images = [
     "kuva1.png", "kuva2.png", "kuva3.png", "kuva4.png",
     "kuva5.png", "kuva6.png", "kuva7.png", "kuva8.png",
-    "kuva9.png", "kuva10.png", "kuva11.png"
+    "kuva9.png", "kuva10.png"
 ];
 
 const audioFiles = {
@@ -14,8 +14,7 @@ const audioFiles = {
     "kuva7.png": "kuva7.mp3",
     "kuva8.png": "kuva8.mp3",
     "kuva9.png": "kuva9.mp3",
-    "kuva10.png": "kuva10.mp3",
-    "kuva11.png": "kuva11.mp3"
+    "kuva10.png": "kuva10.mp3"
 };
 
 let selectedImages = [];
@@ -136,7 +135,6 @@ function adjustLayout() {
     resizeCards();
     adjustGameBoardSize();
     centerGameBoard();
-    positionFeedback();
 }
 
 function startGame(level) {
